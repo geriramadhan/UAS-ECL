@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 31, 2019 at 04:48 PM
+-- Generation Time: Feb 05, 2019 at 10:02 AM
 -- Server version: 10.1.36-MariaDB
 -- PHP Version: 7.2.10
 
@@ -115,7 +115,7 @@ CREATE TABLE `t_siswa` (
 --
 
 INSERT INTO `t_siswa` (`nis`, `nama_lengkap`, `jenis_kelamin`, `alamat`, `no_telp`, `id_kelas`, `created_at`, `updated_at`, `foto`) VALUES
-(10515091, 'Ahmad Fikri Nurjihad Dzulfikar', 'L', 'Aspol Cibiru Blok AD No. 5', '082214441802', 1, '2019-01-31 05:36:19', '2019-01-31 05:52:07', '10515091.JPG');
+(10515013, 'Geri Ramadhan', 'L', 'Jln.A.H.Nasution No 73 Bandung', '02291165337', 1, '2019-02-05 01:33:54', '2019-02-05 01:33:54', '10515013.jpg');
 
 --
 -- Indexes for dumped tables
@@ -159,7 +159,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `t_kelas`
 --
 ALTER TABLE `t_kelas`
-  MODIFY `id_kelas` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id_kelas` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `t_login`
